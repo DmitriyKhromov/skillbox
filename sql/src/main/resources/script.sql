@@ -1,11 +1,5 @@
 BEGIN;
 
-drop table users_schema."subscription";
-drop table users_schema."user";
-
-
-drop schema users_schema;
-
 CREATE SCHEMA IF NOT EXISTS users_schema;
 
 CREATE TABLE IF NOT EXISTS users_schema."user"
